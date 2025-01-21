@@ -249,7 +249,7 @@ local Tabs = {
 }
 
 local AimbotGeneral = Tabs.Aimbot:AddLeftGroupbox('General')
-AimbotGeneral:AddToggle('AG_aimtoggle', { Text = 'Enable', Default = false, }):AddKeyPicker('AG_aimtogglekey', { Default = 'E', SyncToggleState = false, Mode = 'Hold', Text = 'Aimkey', NoUI = false })
+AimbotGeneral:AddToggle('AG_aimtoggle', { Text = 'Enable', Default = false, }):AddKeyPicker('AG_aimtogglekey', { Default = 'T', SyncToggleState = false, Mode = 'Toggle', Text = 'Aimkey', NoUI = false })
 --AimbotGeneral:AddToggle('AG_shootteammates', { Text = 'Aim At Teammates', Default = false })
 AimbotGeneral:AddDivider()
 AimbotGeneral:AddToggle('AG_aimsilent', { Text = 'Silent', Default = false })
